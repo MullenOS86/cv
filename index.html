@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- if you type this, this tell the browser what html i'm running. -->
+<!-- index.html is usauly the name that web develops gives there home page. -->
+<!-- Type html and then the tab botton and that will give you the boiler plate code. -->
+<html>
+<!-- this tells the browser that everything within thid tag is html code -->
+  <head>
+  <!-- The <Head> tag holds info about the web page. It tells the brower
+  how it should handle the page.-->
+    <meta charset="utf-8">
+    <!-- UTF-8 IS WHAT I SHOULD BE USING WHEN USING "HTML 5". IT A UNIVERSAL CHARACTER Set.
+    Meta tells the browser how to display the web page.-->
+
+    <title>Osei's Personal Site</title>
+    <!-- <title></title> is the title of the page.-->
+    <!-- HOW TO OPEN THE WEBSITE IN MY BROWSER? GO TO WHERE I SAVED THE INDEX.HTML FILE, AND DOUBLE CLICKING ON IT.
+    ANOTHER WAY IS TO RIGHT CLICK ON YOUR FILE IN ATOM AND GO DOWN TO "COPY FULL PATH", THEN COPY AND PATE IT TO THE browser.
+    ALSO THE URL TELLS YOU HOW TO FIND THE LINK ON THE COMPUTER.-->
+    <style>
+      body {
+      background-color: #EAF6F6;
+      }
+
+      hr {
+      border-style: none;
+      border-top-style: dotted;
+      width: 100px;
+      }
+
+
+    </style>
+
+
+  </head>
+
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td><img src="images/osei.png" alt="Osei's Profile Picture"></td>
+        <!-- There are 3 ways to put a image on the site. (1) Right Click on the image, scroll down and to "copy image address"
+        and paste in between quotations in the image tag. Now if the browser doesnt show the image, then you and you the "alt"
+        attribute and type what the picture was in the quotations. This also help you when someone is searching for something
+        related to your website.(2) Drag and drop image that i have saved on my computer or copy and paste in "html-personal site" folder.
+        Then type the name of the picture in between the "src" parentheses.(3) Creat a "images folder" in the "HTML-PERSONAL Site"
+        folder. Then drag and drop image in the folder. Then create a path to that folder in between the quotations in the tag.
+        by typing "image/" in front of the name of the picture (no space is needed). The image should go from square to
+        circle because it is from mu folder and not a website. It's not working this way. -->
+        <!-- look up <img> in mdn docs. -->
+        <td><h1>Osei Mullen</h1>
+        <p><em>I'm employed at STV INC. <strong><a href="https://www.stvinc.com">STVINC</a></strong></em></p>
+        <!-- The <p></p> make the text into a paragraph. -->
+        <!-- The <em></em> tag is used to make text Italicized. -->
+        <!-- The <strong></strong> tag is used to Make text bold. -->
+        <!-- The <a href=""></a> tag is called the "anchor tag." The "href" is for the link and destination.
+        The space next to it, in between the > < is what take them to that link. Make this the name of the website. -->
+        <p>I'm training to be a web developer.</p></td>
+      </tr>
+    </table>
+
+
+  <hr>
+  <!-- The <hr> tag can be used to create a line and divid parts of your website. -->
+  <h3>Education</h3>
+  <!-- This tag is used to make text or heading bigger or smaller. From 1-6. -->
+  <ul>
+    <li>City Tech College</li>
+    <li>Borough of Manhattan Community College</li>
+  </ul>
+  <!-- <<ul></ul> Stands for unordered list. It is a bullet point list. <li></li> "list item tag" goes inside the
+   unordered list <ul></ul> for every item you want aa a bullet point. -->
+  <!-- <<ol></ol> order list is for a list of numbers, and you would put the list items <<li></li> in the <ol></ol>
+    like we did with the <ul></ul>-->
+  <!-- for more advance options refer to MDN docs -->
+
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <!-- The table tag <table></table>, helps me to structure my text on my webpage. Although, html is no longer used for this. -->
+    <!-- cellspacing attribute is for making space within the table tag, so the words or image doesnt touch the lines of the table-->
+    <thead>
+      <!-- Inside the table element, there is a table head <thead></thead>, table body <tbody></tbody>, and table footer <tfoot>
+      </tfoot> as seen below. -->
+      <tr><!-- The "table row" tag <tr></tr>, holds the data for that row. -->
+        <th>Dates</th> <!-- This is called "table header" It is used inside the "table head" tag. This is used for most tables
+          instead of the "table data or cell" tag <td></td>. -->
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2013-2019</td><!-- this is the table data or cell tag, which is what will show up in the table row tag. The data in this
+          cell will show up horizontally. -->
+        <td>CEO of ENY Painting</td>
+      </tr>
+      <tr>
+        <td>2015-2019</td>
+        <td>Partner and driver for Uber Technology</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <thead>
+
+    </thead>
+    <tbody>
+      <tr>
+        <td>Proficient in Excel🚲🚲🚲🚲🚲</td>
+        <td>Proficient as an Administrative Assistant 🚲🚲</td>
+      </tr>
+      <tr>
+        <td>Health and Fitness coach🚲🚲🚲🚲</td>
+        <td>Wed Development🚲</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <hr>
+  <a href="Hobbies.html">My Hobbies</a>
+  <a href="Contact Me.html">Contact Me</a>
+  <!-- Creating a link and page to my website. Right click on "html-personal site" folder, click on "New file"​
+  and call it "Hobbies.html" Now on the hobbies.html page, add the "HTML boiler plate" code. Insde the "title tag" <title></title>
+  type "My Hobbies". In the "body tag" part you can type your <h3></h3> heading say "Hobbies". under that you can make a <ol></ol> tag
+  wit the <li></li> tag inside of it, and the <a href="URL OR LINK">NAME OF LINK OR VIDEO</a> inside the <li></li> for each of
+  my hobbies (However, she used the "paragraph tag" under her <h1></h1> heading on her contact page, i guess just because it's straight
+  text). An example of this is on my "Hobbies.html" Page. Then go back to the "index.html" page and create another "anchor" tag
+  linking to the web page i just created. <a href="Hobbies.html">My Hobbies</a>. The example is right above for my Hobbies AND
+  Contact page.
+</body>
+
+</html>
